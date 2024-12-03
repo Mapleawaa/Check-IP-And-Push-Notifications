@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                /* background-color: #f7f7f7; */
+                background: linear-gradient(to bottom right #ADD8E6, #ff81ee);
+            }
+            .container {
+                text-align: center;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                background-color: #ffffff;
+                max-width: 400px;
+                margin: auto;
+            }
+            h1 {
+                font-size: 24px;
+                color: #333333;
+            }
+            p {
+                font-size: 16px;
+                color: #666666;
+            }
+            .btn {
+                display: inline-block;
+                padding: 10px 20px;
+                margin-top: 20px;
+                font-size: 16px;
+                color: #ffffff;
+                background-color: #007bff;
+                border-radius: 5px;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <img src="https://s21.ax1x.com/2024/11/04/pArzONq.jpg" alt="表情包" width="100" height="100">
+            <h1>家 的 IP地址已经改变</h1>
+            <p>原IP地址: {previous_ip}</p>
+            <p>现在的IP地址: {current_ip}</p>
+            <p>上一次IP更新时间: {interval_seconds / 60}分钟</p>
+            <p>当前时间: {datetime.now()}</p>
+        </div>
+    </body>
+</html>

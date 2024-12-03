@@ -1,0 +1,30 @@
+{
+    "smtp": {
+      "server": "",
+      "port": 465,
+      "username": "",
+      "password": "",
+      "use_ssl": true
+    },
+    "email": {
+      "to_address": "",
+      "from_address": "",
+      "subject": "家 的 IP地址已经改变"
+    },
+    "api_servers": [
+      {
+        "name": "api_ip_sb",
+        "url": "https://api.ip.sb/ip"
+      },
+      {
+        "name": "meitu",
+        "url": "https://webapi-pc.meitu.com/common/ip_location"
+      },
+      {
+        "name": "ipcn",
+        "url": "https://www.ip.cn/api/index?ip=&type=0"
+      }
+    ],
+    "check_interval_seconds": 300
+  }
+  
