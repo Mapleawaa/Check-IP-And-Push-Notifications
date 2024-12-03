@@ -1,0 +1,56 @@
+{
+    "requsetServer_meitu": {
+        "url": "https://webapi-pc.meitu.com/common/ip_location",
+        "method": "GET",
+        "header": [
+            {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+            }
+        ]
+    },
+    "requestServer_ipcn"：{
+        "url": "https://www.ip.cn/api/index?ip=&type=0",
+        "method": "GET",
+        "header": [
+            {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+            }
+        ]
+    },
+    "requestServer_pconline":{
+        "url": "https://whois.pconline.com.cn/ipJson.jsp?ip=&json=true"
+        "method": "GET",
+        "header": [
+            {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+            }
+        ]
+    },
+    "requestServer_vore.top": {
+        "url": "https://api.vore.top/api/IPdata?ip="
+        "method": "GET",
+        "header": [
+            {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+            }
+        ]
+    },
+    "requestServer_ip138": {
+        "url": "https://site.ip138.com/ip.asp?ip="
+        "method": "GET",
+        "header": [
+            {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+            }
+        ]
+    }，
+    "requestServer_ip.sb" : {
+        "url": = "https://api.ip.sb/geoip/"
+        "method": "GET",
+        "header": [
+            {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+            }
+        ]
+    }
+}
