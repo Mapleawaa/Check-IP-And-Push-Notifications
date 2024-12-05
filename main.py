@@ -204,7 +204,7 @@ def send_email(previous_ip, current_ip):
                 <p>原IP地址: {previous_ip}</p>
                 <p>现在的IP地址: {current_ip}</p>
                 <p>上一次IP更新时间: {interval_seconds / 60}分钟</p>
-                <p>当前时间: {datetime.now()}</p>
+                <p>本次IP更新时间: {datetime.now()}</p>
             </div>
         </body>
     </html>
