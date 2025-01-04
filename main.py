@@ -12,6 +12,11 @@ import subprocess
 from colorama import Fore, Style, init
 from typing import Optional, Dict, Any
 
+# 你正在使用的版本为 : Open 1.5
+# 开源地址 : https://github.com/Mapleawaa/Check-IP-And-Push-Notifications
+# 如果个人使用 请勿删除本段注释
+# 如遇到问题 请创建issue
+
 # 配置日志记录
 logging.basicConfig(
     level=logging.INFO,
