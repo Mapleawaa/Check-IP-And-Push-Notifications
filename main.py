@@ -60,13 +60,13 @@ class ConfigManager:
             "smtp": {
                 "server": "smtp.163.com",
                 "port": 465,
-                "username": "maverickawa@163.com",
-                "password": "ZDkg8yLUDTrBnV8j",
+                "username": "",
+                "password": "",
                 "use_ssl": True
             },
             "email": {
-                "to_address": "apple.yan@me.com",
-                "from_address": "maverickawa@163.com",
+                "to_address": "",
+                "from_address": "",
                 "subject": "公司的公网IP地址已经修改为{now_ip}"
             },
             "check_interval_seconds": 300
